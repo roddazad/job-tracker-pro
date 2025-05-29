@@ -15,7 +15,11 @@ export default function Hero () {
     <p className="text-lg md:text-xl max-w-2xl">
       Stay organized, focused, and one step ahead in your job search journey.
     </p>
+    <button className="mt-6 px-6 py-3 bg-teal-500 hover:bg-teal-600 text-white rounded-md text-lg font-semibold transition duration-300">
+      Get Started
+    </button>
   </div>
+  
 </section>
     )
 }
