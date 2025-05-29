@@ -1,7 +1,8 @@
 import Image from "next/image";
+import Hero from '../components/Hero.js'
 
 export default function Home() {
   return (
-   <h1>Placeholder for home page</h1>
+   <Hero />
   );
 }
