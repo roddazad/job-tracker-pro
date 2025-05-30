@@ -1,4 +1,4 @@
-import StatsCard from '../../components/StatsCard';
+import StatsCard from '../../src/components/StatsCard';
 
 const stats = [
   { title: 'Applications', value: 12 },
