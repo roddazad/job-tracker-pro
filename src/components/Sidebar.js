@@ -6,6 +6,7 @@ export default function Sidebar() {
       <h2 className="text-xl font-bold mb-6">Job Tracker</h2>
       <ul className="space-y-4 text-sm font-medium">
         <li><Link href="#" className="text-blue-600 hover:underline">Overview</Link></li>
+        <li><Link href="/add-job" className="hover:text-teal-400">Add Job</Link></li>
         <li><Link href="#" className="hover:underline">Applications</Link></li>
         <li><Link href="#" className="hover:underline">Interviews</Link></li>
         <li><Link href="#" className="hover:underline">Settings</Link></li>

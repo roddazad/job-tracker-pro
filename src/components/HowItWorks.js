@@ -1,3 +1,6 @@
+import Link from 'next/link';
+
+
 export default function HowItWorks() {
   const steps = [
     {
@@ -35,9 +38,11 @@ export default function HowItWorks() {
         </div>
       </div>
       <div className="mt-10 text-center">
-        <button className="px-6 py-3 bg-teal-500 hover:bg-teal-600 text-white rounded-md text-lg font-semibold transition duration-300">
-          Get Started
-        </button>
+        <Link href="/sign-in">
+  <button className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition">
+    Get Started
+  </button>
+</Link>
 </div>
     </section>
   );
