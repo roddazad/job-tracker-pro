@@ -27,7 +27,7 @@ const mockApplications = [
 ];
 
 export default function ApplicationsPage() {
-  const [applications] = useState(mockApplications);
+  const [applications, setApplications] = useState(mockApplications);
 
   return (
     <div>
